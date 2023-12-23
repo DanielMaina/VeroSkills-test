@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Website</title>
+</head>
+<body>
+    <img src="https://media.istockphoto.com/vectors/vector-cartoon-illustration-of-happy-looking-santa-claus-sitting-at-vector-id873639882?k=6&m=873639882&s=170667a&w=0&h=8mu-cbhNadsWt_eRg61W0Ve7ipfIBa9rJcKn7mtELV0=" alt="Santa eating cookies" />
+    <h1><span style="color: red;">Santa Claus'</span> Cookie Delivery Service</h1>
+    <p>This Company was founded to give <span style="color: green;">Santa Claus</span> the best possible cookies</p>
+
+    <div style="color: red;">
+        <table>
+            <thead>
+              <tr>
+                <th>Cookie Type</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Chocolate chip</td>
+                <td>$10</td>
+              </tr>
+              <tr>
+                <td>Oreo style</td>
+                <td>$8</td>
+              </tr>
+              <tr>
+                <td>Mint chocolate</td>
+                <td>$18</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+    <div style="color: green;">
+        <form  action="action.php" method="get">
+
+            <div class="box">
+              <h2>Cookie Delivery Informstion</h2>
+              <p> <span class="fieldName">Full Name: </span>
+                <input type="text" name="firstName" />  
+              </p>
+
+              <p> <span class="fieldName"> Address: </span>
+              <input type="text" name="address" />
+              </p>
+
+              <!-- <p>Is the order for pick up or delivery?:
+              <input type="radio" id="deli" name="order" value="DELI"/>
+              <label for="deli">Delivery</label>
+              <input type="radio" id="pick" name="order" value="PICK"/>
+              <label for="pick">Pick up</label>
+              </p> -->
+  
+              <p> <span class="fieldName"> Cookie selection: </span>
+              <select name="course">
+                <option value="chocolate">Chocolate chip</option>
+                <option value="oero">Oreo style</option>
+                <option value="mint">Mint chocolate</option>
+              </select>
+              </p>
+  
+              <p> <span class="fieldName"> Quantity of boxes: </span>               
+                <input type="radio" name="quan" value="1" /> 1
+                <input type="radio" name="quan" value="2" /> 2
+                <input type="radio" name="quan" value="3" /> 3
+                <input type="radio" name="quan" value="4" /> 4
+                <input type="radio" name="quan" value="5" /> 5
+              </p>
+  
+  
+              <p> <span class="fieldName"> Dietary needs: </span>               
+                <input type="checkbox" name="dietary[]" value="sugar"/> No sugar
+                <input type="checkbox" name="dietary[]" value="gluten"/> Gluten-free
+                <input type="checkbox" name="dietary[]" value="double"/> Double sized cookies
+              </p>
+  
+              <p>
+                <span class="fieldName"> Additional delivery instructions: </span>
+                <textarea name="comment" rows="2" cols="40">Enter additional instructions here ....
+                </textarea>
+              </p>
+  
+              <input type="reset" value="Clear">
+              <input type="submit" value="Submit">
+            </div>
+        </form>
+        <img src="http://askgeorgekopp.com/wp-content/uploads/2015/02/Verizons-Mobile-%E2%80%98Cookies%E2%80%99-Could-Take-the-Cake.jpg" height="100" width="200" alt="image of cookies" />
+    </div>    
+</body>
+</html>
